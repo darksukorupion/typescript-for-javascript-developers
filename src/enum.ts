@@ -12,7 +12,7 @@ enum Months {
   September,
   October,
   November,
-  December
+  December,
 }
 
 console.log(Months.January);
@@ -20,11 +20,11 @@ console.log(Months.February);
 console.log(Months.December);
 
 enum COLORS {
-  RED = "#FF0000",
-  GREEN = "#00FF00",
-  BLUE = "#0000FF",
-  WHITE = "#FFFFFF",
-  BLACK = "#000000"
+  RED = '#FF0000',
+  GREEN = '#00FF00',
+  BLUE = '#0000FF',
+  WHITE = '#FFFFFF',
+  BLACK = '#000000',
 }
 
 let green = COLORS.GREEN;
@@ -34,7 +34,7 @@ let white = COLORS.WHITE;
 console.log({ white });
 
 enum COLORS {
-  YELLOW = "#FFF00"
+  YELLOW = '#FFF00',
 }
 
 COLORS.YELLOW;
